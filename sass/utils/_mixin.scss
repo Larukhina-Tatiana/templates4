@@ -1,0 +1,22 @@
+@mixin font-style ($font-family: "Montserrat", $font-style: normal, $font-weight: 400, $font-size: 16px, $line-height: calc(25/16), $background-color: $background, $color: $grey) {
+    font-family:Montserrat;
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    background-color: $grey;
+    color: $color;
+}
+
+@mixin transition ($transition-property: color, $transition-duration: 250ms, $transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)){
+    transition-duration: $transition-duration;
+    transition-timing-function: $transition-timing-function;
+}
+@mixin flex ($gap, $jc: center, $ai: center, $direction: row, $wrapper: wrap) {
+    display: flex;
+    gap: $gap;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-flow: $direction $wrapper;
+    
+}
