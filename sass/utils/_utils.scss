@@ -26,6 +26,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 .flex {
@@ -43,20 +44,23 @@ ul {
   padding: 0;
   text-decoration: none;
 }
-
-
-.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.button {
+  cursor: pointer;
 }
 
-@media screen and (min-width: 1200px) {
+
+// .section {
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+// }
+
+// @media screen and (min-width: 1200px) {
   
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-}
+//   .section {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+//   }
+// }
 
 /* Скрытие заголовка */
 .visually-hidden {
@@ -72,6 +76,6 @@ ul {
   margin: -1px;
 }
 
-.no-padding-top{
-  padding-top: 0;
-}
+// .no-padding-top{
+//   padding-top: 0;
+// }

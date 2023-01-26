@@ -1,0 +1,16 @@
+.all-services {
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+
+    &__info {
+        display: flex;
+        gap: 370px;
+        align-items: center;
+
+        & .h2 {
+            width: 540px;
+            color: $white;
+        }
+       
+    }
+
+}

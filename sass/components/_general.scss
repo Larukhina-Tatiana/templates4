@@ -1,4 +1,9 @@
 body {
-    @include font-style ($font-family: 'Montserrat', $font-style: normal, $font-weight: 400, $font-size: 16px, $line-height: calc(25/16), $background-color: $background, $color: $grey);
+    @include font-style ($font-family: 'Montserrat, Arial, sans-serif', $font-style: normal, $font-weight: 400, $font-size: 16px, $line-height: calc(25/16), $color: $grey);
     // margin: 0%;
+}
+
+.container {
+    width: 1110px;
+    margin: auto;
 }

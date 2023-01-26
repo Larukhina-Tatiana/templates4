@@ -1,0 +1,26 @@
+.nav {
+    border-bottom: $border;
+
+    &__list {
+        justify-content: end;
+        gap: 45px;
+    }
+
+    &__link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(20 / 16);
+        color: $white;
+        padding: 40px 0;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $accent;
+        }
+
+        &--active {
+            border-bottom: 2px solid #FFFFFF;
+        }
+    }
+}
