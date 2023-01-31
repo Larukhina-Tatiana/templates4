@@ -27,7 +27,8 @@
             opacity: 1;
         }
 
-        &:hover .project-cards__img-content {
+        &:hover .project-cards__img-content,
+        &:focus .project-cards__img-content {
             transform: translateY(100%);
         }
     }
@@ -35,7 +36,6 @@
 
     &__img {
         border-radius: 10px;
-
     }
 
     &__img-content {
@@ -62,7 +62,6 @@
     }
 
     &__text {
-
         margin-bottom: 47px;
     }
 }

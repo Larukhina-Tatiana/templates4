@@ -512,7 +512,7 @@ body {
 .project-cards__img-container:hover::before, .project-cards__img-container:focus::before {
   opacity: 1;
 }
-.project-cards__img-container:hover .project-cards__img-content {
+.project-cards__img-container:hover .project-cards__img-content, .project-cards__img-container:focus .project-cards__img-content {
   transform: translateY(100%);
 }
 .project-cards__img {
