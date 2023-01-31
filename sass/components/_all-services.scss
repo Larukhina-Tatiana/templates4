@@ -1,16 +1,31 @@
 .all-services {
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    position: relative;
+    padding: 100px 0 85px;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+        height: 490px;
+        width: 100%;
+        z-index: -1;
+    }
+
+    
 
     &__info {
         display: flex;
-        gap: 370px;
+        justify-content: space-between;
         align-items: center;
+        margin-bottom: 70px;
 
         & .h2 {
             width: 540px;
             color: $white;
         }
-       
+        
     }
 
 }

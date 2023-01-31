@@ -1,0 +1,18 @@
+.all-projects {
+    background: $background-sect;
+    padding: 100px 0 130px;
+
+    
+    & .h2 {
+        text-align: center;
+    }
+
+    &__list {
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    &__item {
+        flex-basis: calc((100% - 90px) / 4);
+    }
+}

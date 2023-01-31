@@ -6,17 +6,32 @@
 @import "./components/general";
 
 @import "./components/h2";
-// @import "./components/h3";
+@import "./components/h3";
+
 @import "./components/header";
 @import "./components/nav";
 @import "./components/buttons";
-@import "./components/services";
 
-@import "./components/p-h2";
+@import "./components/h2-text";
+@import "./components/services";
+@import "./components/link";
+
 @import "./components/p-h3";
 @import "./components/about-us";
 @import "./components/info-lists";
-@import "./components/_all-services";
+
+@import "./components/all-services";
+@import "./components/project-cards";
+
+
+@import "./components/all-projects";
+
+@import "./components/video";
+@import "./components/subscribe";
+@import "./components/form-mail";
+
+@import "./components/footer";
+
 
 
 

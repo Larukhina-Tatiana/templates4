@@ -48,7 +48,7 @@
                 <h2 class="h2">
                     Ми створюємо мобільні додатки для великих корпорацій
                 </h2>
-                <p class="services__text">
+                <p class="h2-text">
                     Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
                     веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
                     латиниці з початку XVI ст.
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         <div class="services__item-content">
-                            <h3 class="services__item-title">Створення сайтів</h3>
+                            <h3 class="h3">Створення сайтів</h3>
                             <p class="p-h3">
                                 Lorem Ipsum - це текст-"риба", часто використовує у пресі та
                                 веб-дизайні.
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                         <div class="services__item-content">
-                            <h3 class="services__item-title">Створення сайтів</h3>
+                            <h3 class="h3">Створення сайтів</h3>
                             <p class="p-h3">
                                 Lorem Ipsum - це текст-"риба", часто використовує у пресі та
                                 веб-дизайні.
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                         <div class="services__item-content">
-                            <h3 class="services__item-title">Створення сайтів</h3>
+                            <h3 class="h3">Створення сайтів</h3>
                             <p class="p-h3">
                                 Lorem Ipsum - це текст-"риба", часто використовує у пресі та
                                 веб-дизайні.
@@ -118,15 +118,20 @@
                             та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
                             латиниці з початку XVI ст.
                         </p>
-                        <a class="about-us__link" href="">Детальніше про компанію</a>
+                        <a class="link" href="">Детальніше про компанію</a>
                     </div>
-<!-- Проработать фон -->
+                    <!-- Проработать фон -->
                     <picture>
                         <source srcset="
-                  ./img/about-us/about-us@1x.webp   520w,
-                  ./img/about-us/about-us@2x.webp 1040w,
-                  ./img/about-us/about-us@3x.webp  1560w
+                    ./img/about-us/about-us@1x.webp   520w,
+                    ./img/about-us/about-us@2x.webp 1040w,
+                    ./img/about-us/about-us@3x.webp  1560w
                 " type="image/webp" media="(min-width: 1110px)" sizes="(min-width: 1110px) 500px" />
+                        <source srcset="
+                    ./img/about-us/about-us@1x.jpg   520w,
+                    ./img/about-us/about-us@2x.jpg 1040w,
+                    ./img/about-us/about-us@3x.jpg  1560w
+                " media="(min-width: 1110px)" sizes="(min-width: 1110px) 500px" />
                         <img class="about-us__img" src="./img/about-us/about-us@1x.jpg" alt="Інженери за пряцею"
                             width="500" />
                     </picture>
@@ -192,142 +197,357 @@
             <div class="container">
                 <div class="all-services__info">
                     <h2 class="h2">Наші роботи на яких ми спеціалізуємось</h2>
-                <button class="button" type="button">Всі послуги</button>
+                    <button class="button" type="button">Всі послуги</button>
                 </div>
-                
-                <ul>
-                    <li>
-                        <img src="" alt="Команда за роботою" width="350" height="300" />
-                        <h3>01. Дослідження і упаковка</h3>
-                        <p class="p-h3">
+
+                <ul class="project-cards">
+                    <li class="project-cards__item">
+                        <div class="project-cards__img-container">
+                            <picture>
+                                <source srcset="
+                                ./img/project-cards/project-cards@1x.webp 350w,
+                                ./img/project-cards/project-cards@2x.webp 700w,
+                                ./img/project-cards/project-cards@3x.webp 1050w
+                        " type="image/webp" media="(min-width: 1110px)" sizes="(min-width: 1110px) 350px" />
+                                <source srcset="
+                                ./img/project-cards/project-cards@1x.jpg 350w,
+                                ./img/project-cards/project-cards@2x.jpg 700w,
+                                ./img/project-cards/project-cards@3x.jpg 1050w
+                        " media="(min-width: 1110px)" sizes="(min-width: 1110px) 350px" />
+                                <img class="project-cards__img" src="./img/project-cards/project-cards@1x.jpg"
+                                    alt="Команда за роботою" width="350" />
+                            </picture>
+                            <p class="project-cards__img-content">Наша команда</p>
+
+                        </div>
+                        <h3 class="h3"><span class="accent">01.</span> Дослідження і упаковка</h3>
+                        <p class="project-cards__text">
                             Lorem Ipsum - це текст-"риба", що часто використовується в пресі
                             та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
                             латиниці з початку XVI ст.
                         </p>
-                        <a href="">Детальніше</a>
+                        <a class="link" href="">Детальніше</a>
+
+                    </li>
+                    <li class="project-cards__item">
+                        <div class="project-cards__img-container">
+                            <picture>
+                                <source srcset="
+                                ./img/project-cards/project-cards@1x.webp   350w,
+                                ./img/project-cards/project-cards@2x.webp 700w,
+                                ./img/project-cards/project-cards@3x.webp 1050w
+                        " type="image/webp" media="(min-width: 1110px)" sizes="(min-width: 1110px) 350px" />
+                                <source srcset="
+                                ./img/project-cards/project-cards@1x.jpg   350w,
+                                ./img/project-cards/project-cards@2x.jpg 700w,
+                                ./img/project-cards/project-cards@3x.jpg 1050w
+                        " media="(min-width: 1110px)" sizes="(min-width: 1110px) 350px" />
+                                <img class="project-cards__img" src="./img/project-cards/project-cards@1x.jpg"
+                                    alt="Команда за роботою" width="350" />
+                            </picture>
+                            <p class="project-cards__img-content">Наша команда</p>
+                        </div>
+                        <h3 class="h3"><span class="accent">01.</span> Дослідження і упаковка</h3>
+                        <p class="project-cards__text">
+                            Lorem Ipsum - це текст-"риба", що часто використовується в пресі
+                            та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
+                            латиниці з початку XVI ст.
+                        </p>
+                        <a class="link" href="">Детальніше</a>
+
+                    </li>
+                    <li class="project-cards__item">
+                        <div class="project-cards__img-container">
+                            <picture>
+                                <source srcset="
+                                ./img/project-cards/project-cards@1x.webp   350w,
+                                ./img/project-cards/project-cards@2x.webp 700w,
+                                ./img/project-cards/project-cards@3x.webp 1050w
+                        " type="image/webp" media="(min-width: 1110px)" sizes="(min-width: 1110px) 350px" />
+                                <source srcset="
+                                ./img/project-cards/project-cards@1x.jpg   350w,
+                                ./img/project-cards/project-cards@2x.jpg 700w,
+                                ./img/project-cards/project-cards@3x.jpg 1050w
+                        " media="(min-width: 1110px)" sizes="(min-width: 1110px) 350px" />
+                                <img class="project-cards__img" src="./img/project-cards/project-cards@1x.jpg"
+                                    alt="Команда за роботою" width="350" />
+                            </picture>
+                            <p class="project-cards__img-content">Наша команда</p>
+                        </div>
+                        <h3 class="h3"><span class="accent">01.</span> Дослідження і упаковка</h3>
+                        <p class="project-cards__text">
+                            Lorem Ipsum - це текст-"риба", що часто використовується в пресі
+                            та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
+                            латиниці з початку XVI ст.
+                        </p>
+                        <a class="link" href="">Детальніше</a>
+
                     </li>
                 </ul>
+                <hr />
             </div>
-            
-            <hr />
-        </section>
-        <section>
-            <h2 class="subtitle">Наші проекти</h2>
-            <p class="p-h2">
-                Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
-                веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
-                з початку XVI ст.
-            </p>
-            <ul>
-                <li>
-                    <img src="" alt="Фото проекта1" width="255" height="255" />
-                </li>
-                <li>
-                    <img src="" alt="Фото проекта1" width="255" height="255" />
-                </li>
-                <li>
-                    <img src="" alt="Фото проекта1" width="255" height="255" />
-                </li>
-                <li>
-                    <img src="" alt="Фото проекта1" width="255" height="255" />
-                </li>
-            </ul>
-            <button class="button" type="button">Всі проекти</button>
-        </section>
-        <section>
-            <h2 class="subtitle">Відео про нашу роботу</h2>
-            <p class="p-h2">Просто подивіться, як ми працюємо</p>
-            <video width="970" height="430" poster="./images/our-video/video-poster.jpg">
-                <source src="" type="video/mp4" />
-                Your browser does not support the video tag. Ой лишенько, щось пішло
-                не так...
-            </video>
 
-            <hr />
+
+        </section>
+        <section class="all-projects">
+            <div class="container">
+                <h2 class="h2">Наші проекти</h2>
+                <p class="h2-text">
+                    Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
+                    веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
+                    з початку XVI ст.
+                </p>
+                <ul class="all-projects__list">
+                    <li class="all-projects__item">
+                        <picture>
+                            <source srcset="
+                        ./img/all-projects/all-projects@1x.webp   255w,
+                        ./img/all-projects/all-projects@2x.webp 510w,
+                        ./img/all-projects/all-projects@3x.webp 765w
+                " type="image/webp" media="(min-width: 1110px)" sizes="(min-width: 1110px) 255px" />
+                            <source srcset="
+                        ./img/all-projects/all-projects@1x.jpg   255w,
+                        ./img/all-projects/all-projects@2x.jpg 510w,
+                        ./img/all-projects/all-projects@3x.jpg 765w
+                " media="(min-width: 1110px)" sizes="(min-width: 1110px) 255px" />
+                            <img class="project-cards__img" src="./img/all-projects/all-projects@1x.jpg"
+                                alt="Фото проекта1" width="255" />
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="
+                        ./img/all-projects/all-projects@1x.webp   255w,
+                        ./img/all-projects/all-projects@2x.webp 510w,
+                        ./img/all-projects/all-projects@3x.webp 765w
+                " type="image/webp" media="(min-width: 1110px)" sizes="(min-width: 1110px) 255px" />
+                            <source srcset="
+                        ./img/all-projects/all-projects@1x.jpg   255w,
+                        ./img/all-projects/all-projects@2x.jpg 510w,
+                        ./img/all-projects/all-projects@3x.jpg 765w
+                " media="(min-width: 1110px)" sizes="(min-width: 1110px) 255px" />
+                            <img class="project-cards__img" src="./img/all-projects/all-projects@1x.jpg"
+                                alt="Фото проекта1" width="255" />
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="
+                        ./img/all-projects/all-projects@1x.webp   255w,
+                        ./img/all-projects/all-projects@2x.webp 510w,
+                        ./img/all-projects/all-projects@3x.webp 765w
+                " type="image/webp" media="(min-width: 1110px)" sizes="(min-width: 1110px) 255px" />
+                            <source srcset="
+                        ./img/all-projects/all-projects@1x.jpg   255w,
+                        ./img/all-projects/all-projects@2x.jpg 510w,
+                        ./img/all-projects/all-projects@3x.jpg 765w
+                " media="(min-width: 1110px)" sizes="(min-width: 1110px) 255px" />
+                            <img class="project-cards__img" src="./img/all-projects/all-projects@1x.jpg"
+                                alt="Фото проекта1" width="255" />
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="
+                        ./img/all-projects/all-projects@1x.webp   255w,
+                        ./img/all-projects/all-projects@2x.webp 510w,
+                        ./img/all-projects/all-projects@3x.webp 765w
+                " type="image/webp" media="(min-width: 1110px)" sizes="(min-width: 1110px) 255px" />
+                            <source srcset="
+                        ./img/all-projects/all-projects@1x.jpg   255w,
+                        ./img/all-projects/all-projects@2x.jpg 510w,
+                        ./img/all-projects/all-projects@3x.jpg 765w
+                " media="(min-width: 1110px)" sizes="(min-width: 1110px) 255px" />
+                            <img class="project-cards__img" src="./img/all-projects/all-projects@1x.jpg"
+                                alt="Фото проекта1" width="255" />
+                        </picture>
+                    </li>
+
+
+                </ul>
+                <button class="button" type="button">Всі проекти</button>
+            </div>
+        </section>
+
+        <section class="video">
+            <div class="container">
+                <h2 class="h2">Відео про нашу роботу</h2>
+                <p class="video__content">Просто подивіться, як ми працюємо</p>
+                <video class="video__player" preload="auto" width="970" height="430" poster="/img/video/img_video.webp">
+                    <source src="" type="video/webm" />
+                    <source src="" type="video/mp4" />
+                    
+                    Your browser does not support the video tag. Ой лишенько, щось пішло
+                    не так...
+                </video>
+                <button class="video__button" type="button">
+                    <svg class="footer__icon" width="60" height="60">
+                        <use href="./img/icons/icons.svg#icon-play-button"></use>
+                    </svg>
+                    Дивитись відео</button>
+                    
+                <hr />
+
+
+                <!-- Подписка на рассылку -->
+                <div class="subscribe">
+                    <h3 class="h3">Підпишіться на нашу розсилку</h3>
+                    <p class="subscribe__text">Корисні статті, акції, новини - отримайте все це зараз!</p>
+                    <!-- Форма с email -->
+                    <form class="form-mail" name="footer-mail" novalidate>
+                        <label class="form-mail__label" for="user_email"></label>
+                        <input class="form-mail__input" type="email" name="email" id="user_email"
+                            placeholder="Ваш e-mail" required />
+                        <button class="form-mail__button" type="submit">
+                            <span class="form-mail__button-text"> Підписатися</span>
+                        </button>
+                        
+                    </form>
+                    <p class="subscribe__text">Ми не шлем спам, і не передаємо нікому ваші дані</p>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <!-- Подписка на рассылку -->
-        <p>Підпишіться на нашу розсилку</p>
-        <p>Корисні статті, акції, новини - отримайте все це зараз!</p>
-        <!-- Форма с email -->
-        <form class="form-mail" name="footer-mail" novalidate>
-            <label class="form-mail__label" for="user_email"></label>
-            <input class="form-mail__input" type="email" name="email" id="user_email" placeholder="E-mail" required />
-            <button class="button btn-send" type="submit">
-                <span class="btn-send__text"> Підписатися</span>
-                <svg class="btn-send__icon" width="24" height="24">
-                    <use href="./images/icons/icons.svg#icon-icon-send"></use>
-                </svg>
-            </button>
-        </form>
-        <p>Ми не шлем спам, і не передаємо нікому ваші дані</p>
-        <section>
-            <h3>Контактная информация</h3>
-            <address>
-                <ul>
-                    <li>
-                        <a href="mailto:test@test.ua" class="footer-item">test@test.ua</a>
-                    </li>
 
-                    <li>
-                        <a href="tel:+380965556699" class="footer-item">+3&nbsp;8096&nbsp;555&nbsp;66&nbsp;</a>
-                    </li>
+    <footer class="footer">
 
-                    <li>
-                        <p class="footer-item">Тернопіль вул С. Бандери</p>
-                    </li>
-                </ul>
-            </address>
-            <h3>Основні посилання</h3>
-            <ul>
-                <li>
-                    <a href="">Головна</a>
-                </li>
-                <li>
-                    <a href="">Наші проекти</a>
-                </li>
-                <li>
-                    <a href="">Наші послуги</a>
-                </li>
-                <li>
-                    <a href="">Контакти</a>
-                </li>
-            </ul>
-            <h3>Наші проекти</h3>
-            <ul>
-                <li>
-                    <a href="">Укрпошта</a>
-                </li>
-                <li>
-                    <a href="">Нафтогаз</a>
-                </li>
-                <li>
-                    <a href="">Львівська пивоварня</a>
-                </li>
-                <li>
-                    <a href="">ТЭЦ Калуша</a>
-                </li>
-            </ul>
-            <h3>Соціальні мережі</h3>
-            <ul>
-                <li>
-                    <a href="">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="">Instagram</a>
-                </li>
-                <li>
-                    <a href="">Facebook</a>
-                </li>
-                <li>
-                    <a href="">Twitter</a>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__links-container">
+                    <h3 class="h3">Контактна інформація</h3>
+                    <address>
+                        <ul class="footer__item">
+                            <li>
+                                <a class="footer__link" href="mailto:test@test.ua">
+                                    <svg  class="footer__icon" width="15" height="15">
+                                        <use href="./img/icons/icons.svg#icon-envelope"></use>
+                                    </svg>
+                                    test@test.ua</a>
+                            </li>
+
+                            <li>
+                                <a class="footer__link" href="tel:+380965556699">
+                                    <svg class="footer__icon" width="15" height="15">
+                                        <use href="./img/icons/icons.svg#icon-call"></use>
+                                    </svg>
+                                    +3&nbsp;8096&nbsp;555&nbsp;66&nbsp;</a>
+                            </li>
+
+                            <li>
+                                <a class="footer__link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                                    rel="noopener noreferrer nofollow">
+                                    <svg class="footer__icon" width="15" height="15">
+                                        <use href="./img/icons/icons.svg#icon-placeholder"></use>
+                                    </svg>
+                                    Тернопіль вул С. Бандери</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+
+                <div class="footer__links-container">
+
+                    <h3 class="h3">Основні посилання</h3>
+                    <ul class="footer__item">
+                        <li class="footer__list" >
+                            <a class="footer__link" href="">
+                                <svg class="footer__icon" width="15" height="15">
+                                <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                            </svg>
+                            Головна</a>
+                        </li>
+                        <li class="footer__list">
+                            <a class="footer__link" href="">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>
+                                Наші проекти</a>
+                        </li>
+                        <li class="footer__list">
+                            <a class="footer__link" href="">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>
+                                Наші послуги</a>
+                        </li>
+                        <li class="footer__list">
+                            <a class="footer__link" href="">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>
+                                Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__links-container">
+                    <h3 class="h3">Наші проекти</h3>
+                    <ul class="footer__item">
+                        <li class="footer__list">
+                            <a class="footer__link" href="">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>
+                                Укрпошта</a>
+                        </li>
+                        <li class="footer__list">
+                            <a class="footer__link" href="">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>Нафтогаз</a>
+                        </li>
+                        <li class="footer__list">
+                            <a class="footer__link" href="">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>Львівська пивоварня</a>
+                        </li>
+                        <li class="footer__list">
+                            <a class="footer__link" href="">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>ТЭЦ Калуша</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__links-container">
+                    <h3 class="h3">Соціальні мережі</h3>
+                    <ul class="footer__item">
+                        <li class="footer__list">
+                            <a class="footer__link" href="" aria-label="LinkedIn Link">
+                                <svg class="footer__icon" width="15" height="15">
+
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>LinkedIn</a>
+                        </li>
+                        <li class="footer__list">
+                            <a class="footer__link" href="" aria-label="Instagram Link">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>Instagram</a>
+                        </li>
+                        <li class="footer__list">
+                            <a class="footer__link" href="" aria-label="Facebook Link">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>Facebook</a>
+                        </li>
+                        <li class="footer__list">
+                            <a class="footer__link" href="" aria-label="Twitter Link">
+                                <svg class="footer__icon" width="15" height="15">
+                                    <use href="./img/icons/icons.svg#icon-right-arrow"></use>
+                                </svg>Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
             <hr />
-            <p class="copyright">&#xa9; 2019. Всі права захищені</p>
-        </section>
+            <p class="footer__copyright">&#xa9; 2019. Всі права захищені</p>
+
+        </div>
+
+
+
     </footer>
 </body>
 

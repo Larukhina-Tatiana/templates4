@@ -17,6 +17,8 @@
         &:focus,
         &:active {
             color: $accent;
+            @include transition ($transition-property: color);
+
         }
 
         &--active {
